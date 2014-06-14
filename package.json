@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/watchify index.js -o bundle.js & sleep 0.5 && ./node_modules/.bin/barkeep"
+    "start": "./node_modules/.bin/watchify index.js -o bundle.js & sleep 1 && ./node_modules/.bin/barkeep"
   },
   "author": "Jeremy Morrell (morrell.jeremy@gmail.com)",
   "license": "MIT",
