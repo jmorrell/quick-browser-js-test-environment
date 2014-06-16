@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/watchify index.js -o bundle.js & sleep 1 && ./node_modules/.bin/barkeep"
+    "start": "./node_modules/.bin/watchify -t es6ify index.js -o bundle.js & sleep 1 && ./node_modules/.bin/barkeep"
   },
   "author": "Jeremy Morrell (morrell.jeremy@gmail.com)",
   "license": "MIT",
   "dependencies": {
-    "watchify": "^0.10.2",
     "barkeep": "^0.2.1",
+    "es6ify": "^1.2.0",
     "tap-browser-color": "^0.1.2",
-    "tape": "^2.13.3"
+    "tape": "^2.13.3",
+    "watchify": "^0.10.2"
   }
 }

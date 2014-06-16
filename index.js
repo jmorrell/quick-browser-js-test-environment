@@ -6,8 +6,8 @@ var test = require('tape');
 
 
 // Write tests here
-test(function(t) {
-  t.ok(true, 'this should be okay');
+test((t) => {
+  t.ok(false, 'this should be okay');
   t.end();
 });
 
